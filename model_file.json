@@ -1,0 +1,14 @@
+{
+    "base_model": "llama3.2",  # Replace with the desired model name (e.g., llama3, etc.)
+    "parameters": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "top_p": 1.0,
+        "top_k": 50,
+        "frequency_penalty": 0.0,
+        "presence_penalty": 0.0
+    },
+    "system_message": "You are an AI assistant specialized in processing and analyzing documents. You will help extract text from uploaded documents and generate meaningful embeddings for further processing.",
+    "user_prompt_template": "Given the following text from a document, generate an embedding representation for it. Text: {{text}}"
+}
+

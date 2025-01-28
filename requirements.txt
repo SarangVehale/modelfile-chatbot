@@ -1,0 +1,7 @@
+psycopg2
+logging
+requests
+PyPDF2
+numpy
+pandas
+
